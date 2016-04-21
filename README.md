@@ -8,8 +8,9 @@ times, Tor connections go right through.
 
 We can enumerate all of the exits, then for each one launch Tor and exit
 through it and attempt to see if the site is either:
-    * Behind a CloudFlare CAPTCHA
-    * Behind CloudFlare
+
+* Behind a CloudFlare CAPTCHA
+* Behind CloudFlare
 
 To avoid hammering the site, there's a default rate limit set to 15s, on top of
 how long it takes to launch Tor and build circuits.
@@ -51,7 +52,7 @@ This should certainly be a not-first resort, if you notice a site is blocking
 Tor, ask them to whitelist exits in their config.
 That is, if at any point you hit a CAPTCHA on a site, just reach out to the
 site owners and ask; don't immediately go and test every single exit.
-Most all of the time site operators are not aware of the problem.
+Most of the time site operators are not aware of the problem.
 
 ### Anonymity
 I'm not making any guarantees regarding anonymity provided by tor when you use
