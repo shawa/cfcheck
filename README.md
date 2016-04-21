@@ -11,11 +11,8 @@ through it and attempt to see if the site is either:
     * Behind a CloudFlare CAPTCHA
     * Behind CloudFlare
 
-
-## How it works `stem` allows a Tor process to be launched with a custom
 To avoid hammering the site, there's a default rate limit set to 15s, on top of
 how long it takes to launch Tor and build circuits.
-
 
 ## Usage
 First get all the exits from https://check.torproject.org/exit-addresses
