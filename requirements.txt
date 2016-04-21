@@ -1,0 +1,5 @@
+clize==3.0
+pycurl==7.43.0
+sigtools==1.1a3
+six==1.10.0
+stem==1.4.0
